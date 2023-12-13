@@ -1,0 +1,11 @@
+,1741,5550,1659,9246
+Session,31268,31268,31268,31268
+Device,Gelb,Pink,Grün,Magenta
+StartTime,2022-07-04 17:36:54,2022-07-04 17:37:40,2022-07-04 17:37:42,2022-07-04 17:39:21
+AttentionCheck,True,False,True,True
+Decision_in_Round1,2,3,10,0
+Decision_in_Round2,6,4,10,1
+Decision_in_Round3,6,5,10,0
+PayOutMoney in Euro,1.2,1.3,0.6,2.9
+Health,2022-07-04 17:43:15.575337,2022-07-04 17:43:15.608678,2022-07-04 17:43:16.315748,2022-07-04 17:43:16.103286
+Page,Teilnehmer ID,Teilnehmer ID,Teilnehmer ID,Teilnehmer ID

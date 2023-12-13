@@ -1,0 +1,215 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4471868210365807238
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4471868210365807233}
+  m_Layer: 0
+  m_Name: Person
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4471868210365807233
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4471868210365807238}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5.17, y: -0.56, z: 6.93}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4144997263304536014}
+  - {fileID: 4664575802883973696}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &4471868209486758443
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4471868210365807233}
+    m_Modifications:
+    - target: {fileID: 8259101534048317000, guid: ff7b39f71247384448ec1bffa8a0f364, type: 3}
+      propertyPath: dialogSentences.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259101534048317000, guid: ff7b39f71247384448ec1bffa8a0f364, type: 3}
+      propertyPath: dialogSentences.Array.data[0]
+      value: "Wir sind hier im Eingangsbereich des Karlsruhe Decision & Design Lab
+        angelangt. Das DFG-gef\xF6rderte KD2Lab im Herzen von Karlsruhe ist weltweit
+        eines der gr\xF6\xDFten computergest\xFCtzten Experimentallabore."
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259101534048317000, guid: ff7b39f71247384448ec1bffa8a0f364, type: 3}
+      propertyPath: dialogSentences.Array.data[1]
+      value: "Es bietet Forscherinnen und Forscher eine hervorragende Infrastruktur
+        f\xFCr \xF6konomische  Experimente und Studien mit Biosensoren unter kontrollierten
+        Laborbedingungen."
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259101534048317000, guid: ff7b39f71247384448ec1bffa8a0f364, type: 3}
+      propertyPath: dialogSentences.Array.data[2]
+      value: "Das Labor verf\xFCgt \xFCber zwei technisch und r\xE4umlich getrennte
+        Laborbereiche, 40 schallisolierte und klimatisierte Computerkabinen, barrierefreie
+        Experimentalkabinen und zwei gro\xDFe Seminarr\xE4ume zur Durchf\xFChrung
+        von Gruppenexperimenten."
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259101534048317000, guid: ff7b39f71247384448ec1bffa8a0f364, type: 3}
+      propertyPath: dialogSentences.Array.data[3]
+      value: Lass uns jetzt das Labor gemeinsam erkunden. Zum Navigieren haben wir
+        die runden Kreise auf dem Boden platziert. Wie bisher kannst du sie aktivieren,
+        indem du sie ansiehst. Los gehts.
+      objectReference: {fileID: 0}
+    - target: {fileID: 9130101062506258538, guid: ff7b39f71247384448ec1bffa8a0f364, type: 3}
+      propertyPath: m_Name
+      value: SpeechBubble
+      objectReference: {fileID: 0}
+    - target: {fileID: 9130101062506258539, guid: ff7b39f71247384448ec1bffa8a0f364, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9130101062506258539, guid: ff7b39f71247384448ec1bffa8a0f364, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9130101062506258539, guid: ff7b39f71247384448ec1bffa8a0f364, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9130101062506258539, guid: ff7b39f71247384448ec1bffa8a0f364, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9130101062506258539, guid: ff7b39f71247384448ec1bffa8a0f364, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.42
+      objectReference: {fileID: 0}
+    - target: {fileID: 9130101062506258539, guid: ff7b39f71247384448ec1bffa8a0f364, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 9130101062506258539, guid: ff7b39f71247384448ec1bffa8a0f364, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9130101062506258539, guid: ff7b39f71247384448ec1bffa8a0f364, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9130101062506258539, guid: ff7b39f71247384448ec1bffa8a0f364, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9130101062506258539, guid: ff7b39f71247384448ec1bffa8a0f364, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9130101062506258539, guid: ff7b39f71247384448ec1bffa8a0f364, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9130101062506258539, guid: ff7b39f71247384448ec1bffa8a0f364, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9130101062506258539, guid: ff7b39f71247384448ec1bffa8a0f364, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9130101062506258539, guid: ff7b39f71247384448ec1bffa8a0f364, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ff7b39f71247384448ec1bffa8a0f364, type: 3}
+--- !u!4 &4664575802883973696 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9130101062506258539, guid: ff7b39f71247384448ec1bffa8a0f364, type: 3}
+  m_PrefabInstance: {fileID: 4471868209486758443}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4471868210287134757
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4471868210365807233}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 2a212ae446e324221b79b5ba36ae84ae, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2a212ae446e324221b79b5ba36ae84ae, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2a212ae446e324221b79b5ba36ae84ae, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2a212ae446e324221b79b5ba36ae84ae, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2.3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2a212ae446e324221b79b5ba36ae84ae, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2a212ae446e324221b79b5ba36ae84ae, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2a212ae446e324221b79b5ba36ae84ae, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2a212ae446e324221b79b5ba36ae84ae, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.3541278
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2a212ae446e324221b79b5ba36ae84ae, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2a212ae446e324221b79b5ba36ae84ae, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.93519706
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2a212ae446e324221b79b5ba36ae84ae, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2a212ae446e324221b79b5ba36ae84ae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2a212ae446e324221b79b5ba36ae84ae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 138.52
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2a212ae446e324221b79b5ba36ae84ae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2a212ae446e324221b79b5ba36ae84ae, type: 3}
+      propertyPath: m_Name
+      value: Person
+      objectReference: {fileID: 0}
+    - target: {fileID: 8879528566716807029, guid: 2a212ae446e324221b79b5ba36ae84ae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2a212ae446e324221b79b5ba36ae84ae, type: 3}
+--- !u!4 &4144997263304536014 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 2a212ae446e324221b79b5ba36ae84ae, type: 3}
+  m_PrefabInstance: {fileID: 4471868210287134757}
+  m_PrefabAsset: {fileID: 0}
